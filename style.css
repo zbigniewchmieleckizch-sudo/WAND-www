@@ -1,0 +1,27 @@
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color: rgb(20, 109, 72);
+}
+h1 {
+  font-family: verdana;
+  font-size: 24px;
+}
+header {
+  position: sticky;
+  top: 0;              /* Przyklej do samej góry (0 pikseli od krawędzi) */
+  background-color: #095c4a; /* WAŻNE: Musi mieć kolor tła! Inaczej tekst będzie prześwitywał */
+  z-index: 1000;       /* Gwarantuje, że nagłówek będzie nad tekstem strony */
+  width: 100%;
+}
+footer {
+  position: fixed;
+  bottom: 0;           /* Przyklej do samego dołu */
+  left: 05%;
+  width: 90%;         /* Musi rozciągać się na całą szerokość ekranu */
+  background-color: #333333;
+  color: white;
+  z-index: 1000;
+  text-align: center;
+  padding: 10px 0;
+}
